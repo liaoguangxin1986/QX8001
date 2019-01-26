@@ -1,0 +1,92 @@
+Dependencies for Project 'test_app', Target 'test_app': (DO NOT MODIFY !)
+F (..\startup\system_iris.c)(0x5AB0A5B5)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\system_iris.o --omf_browse ..\output\system_iris.crf --depend ..\output\system_iris.d)
+I (..\startup\system_iris.h)(0x5AB0A60B)
+F (..\startup\startup_hs100.s)(0x5B5139FB)(--cpu Cortex-M0 --li -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include--list ..\listing\startup_hs100.lst --xref -o ..\output\startup_hs100.o --depend ..\output\startup_hs100.d)
+F (..\driver\uart_driver.c)(0x5BD13D1C)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\uart_driver.o --omf_browse ..\output\uart_driver.crf --depend ..\output\uart_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\user\uart.h)(0x5AB07AAA)
+I (..\driver\uart_driver.h)(0x5B7FD75E)
+F (..\driver\ar0237_driver.c)(0x5C18A72C)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\ar0237_driver.o --omf_browse ..\output\ar0237_driver.crf --depend ..\output\ar0237_driver.d)
+I (..\driver\i2c1_driver.h)(0x5C18A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\user\gpio.h)(0x5AB07941)
+I (..\user\cfg.h)(0x5B970BAF)
+I (..\user\dsp_cfg.h)(0x5C131C05)
+I (..\driver\sys.h)(0x5B4C4BF9)
+F (..\driver\sys.c)(0x5B4C4C27)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\sys.o --omf_browse ..\output\sys.crf --depend ..\output\sys.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+F (..\driver\gpio_driver.c)(0x5B56DE31)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\gpio_driver.o --omf_browse ..\output\gpio_driver.crf --depend ..\output\gpio_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\user\gpio.h)(0x5AB07941)
+I (..\driver\gpio_driver.h)(0x5B56E4F3)
+F (..\driver\i2c0_driver.c)(0x5C40217E)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\i2c0_driver.o --omf_browse ..\output\i2c0_driver.crf --depend ..\output\i2c0_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\user\i2c.h)(0x5AB07AF1)
+I (..\user\dsp_cfg.h)(0x5C131C05)
+I (..\user\hs_dsp.h)(0x5BADC565)
+I (..\driver\sys.h)(0x5B4C4BF9)
+F (..\driver\spi0_driver.c)(0x5C130DE2)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\spi0_driver.o --omf_browse ..\output\spi0_driver.crf --depend ..\output\spi0_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\user\spi.h)(0x5ADD3857)
+I (..\user\cfg.h)(0x5B970BAF)
+I (..\user\dsp_cfg.h)(0x5C131C05)
+I (..\user\hs_dsp.h)(0x5BADC565)
+F (..\driver\pll_driver.c)(0x5B98AE76)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\pll_driver.o --omf_browse ..\output\pll_driver.crf --depend ..\output\pll_driver.d)
+I (..\user\cfg.h)(0x5B970BAF)
+I (..\driver\sys.h)(0x5B4C4BF9)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+F (..\driver\i2c1_driver.c)(0x5C18A72C)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\i2c1_driver.o --omf_browse ..\output\i2c1_driver.crf --depend ..\output\i2c1_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\user\i2c.h)(0x5AB07AF1)
+I (..\driver\sys.h)(0x5B4C4BF9)
+F (..\driver\mipi_csi0_driver.c)(0x5C4034BC)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\mipi_csi0_driver.o --omf_browse ..\output\mipi_csi0_driver.crf --depend ..\output\mipi_csi0_driver.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\user\csi.h)(0x5B8A324C)
+I (..\user\cfg.h)(0x5B970BAF)
+F (..\driver\ov2281_driver.c)(0x5C4034BC)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\ov2281_driver.o --omf_browse ..\output\ov2281_driver.crf --depend ..\output\ov2281_driver.d)
+I (..\driver\i2c1_driver.h)(0x5C18A72C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\user\gpio.h)(0x5AB07941)
+I (..\user\cfg.h)(0x5B970BAF)
+I (..\user\dsp_cfg.h)(0x5C131C05)
+I (..\driver\sys.h)(0x5B4C4BF9)
+F (..\user\main.c)(0x5C40217E)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\user\cfg.h)(0x5B970BAF)
+I (..\user\gpio.h)(0x5AB07941)
+I (..\driver\uart_driver.h)(0x5B7FD75E)
+I (..\user\protocol.h)(0x5B62BBD3)
+I (..\driver\i2c1_driver.h)(0x5C18A72C)
+I (..\driver\spi0_driver.h)(0x5C1073E4)
+I (..\driver\i2c0_driver.h)(0x5B332E12)
+I (..\driver\ar0237_driver.h)(0x5AC4775F)
+I (..\user\dsp_cfg.h)(0x5C131C05)
+I (..\driver\sys.h)(0x5B4C4BF9)
+I (..\driver\pll_driver.h)(0x5B8A3FB9)
+I (..\user\hs_dsp.h)(0x5BADC565)
+I (..\driver\mipi_csi0_driver.h)(0x5B8A3235)
+I (..\driver\ov2281_driver.h)(0x5B360C1E)
+F (..\user\hs_dsp.c)(0x5C4171A4)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\hs_dsp.o --omf_browse ..\output\hs_dsp.crf --depend ..\output\hs_dsp.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\user\dsp_cfg.h)(0x5C131C05)
+I (..\user\gpio.h)(0x5AB07941)
+I (..\driver\uart_driver.h)(0x5B7FD75E)
+I (..\driver\sys.h)(0x5B4C4BF9)
+F (..\user\protocol.c)(0x5C4171A4)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\user -I..\startup -I..\driver-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.1\Device\ARM\ARMCM0\Include-o ..\output\protocol.o --omf_browse ..\output\protocol.crf --depend ..\output\protocol.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\driver\uart_driver.h)(0x5B7FD75E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\user\protocol.h)(0x5B62BBD3)
+I (..\user\dsp_cfg.h)(0x5C131C05)
+I (..\user\cfg.h)(0x5B970BAF)
+I (..\user\hs_dsp.h)(0x5BADC565)
+I (..\driver\sys.h)(0x5B4C4BF9)
+I (..\user\gpio.h)(0x5AB07941)
+I (..\driver\gpio_driver.h)(0x5B56E4F3)
+I (..\driver\spi0_driver.h)(0x5C1073E4)
+I (..\driver\i2c0_driver.h)(0x5B332E12)
+I (..\driver\i2c1_driver.h)(0x5C18A72C)

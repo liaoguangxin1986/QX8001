@@ -1,0 +1,17 @@
+..\output\main.o: ..\user\main.c
+..\output\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+..\output\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\main.o: ..\user\cfg.h
+..\output\main.o: ..\user\gpio.h
+..\output\main.o: ..\driver\uart_driver.h
+..\output\main.o: ..\user\protocol.h
+..\output\main.o: ..\driver\i2c1_driver.h
+..\output\main.o: ..\driver\spi0_driver.h
+..\output\main.o: ..\driver\i2c0_driver.h
+..\output\main.o: ..\driver\ar0237_driver.h
+..\output\main.o: ..\user\dsp_cfg.h
+..\output\main.o: ..\driver\sys.h
+..\output\main.o: ..\driver\pll_driver.h
+..\output\main.o: ..\user\hs_dsp.h
+..\output\main.o: ..\driver\mipi_csi0_driver.h
+..\output\main.o: ..\driver\ov2281_driver.h

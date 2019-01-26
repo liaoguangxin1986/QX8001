@@ -1,0 +1,20 @@
+--cpu Cortex-M0
+"..\output\system_iris.o"
+"..\output\startup_hs100.o"
+"..\output\uart_driver.o"
+"..\output\ar0237_driver.o"
+"..\output\sys.o"
+"..\output\gpio_driver.o"
+"..\output\i2c0_driver.o"
+"..\output\spi0_driver.o"
+"..\output\pll_driver.o"
+"..\output\i2c1_driver.o"
+"..\output\mipi_csi0_driver.o"
+"..\output\ov2281_driver.o"
+"..\output\main.o"
+"..\output\hs_dsp.o"
+"..\output\protocol.o"
+--strict --scatter "..\output\test_app.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\listing\test_app.map" -o ..\output\test_app.axf

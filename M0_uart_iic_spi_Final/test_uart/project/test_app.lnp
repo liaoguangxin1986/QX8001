@@ -1,0 +1,8 @@
+--cpu Cortex-M0
+".\system_iris.o"
+".\startup_hs100.o"
+".\main.o"
+--strict --scatter ".\test_app.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\test_app.map" -o .\test_app.axf

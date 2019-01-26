@@ -1,0 +1,14 @@
+..\output\protocol.o: ..\user\protocol.c
+..\output\protocol.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+..\output\protocol.o: ..\driver\uart_driver.h
+..\output\protocol.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\protocol.o: ..\user\protocol.h
+..\output\protocol.o: ..\user\dsp_cfg.h
+..\output\protocol.o: ..\user\cfg.h
+..\output\protocol.o: ..\user\hs_dsp.h
+..\output\protocol.o: ..\driver\sys.h
+..\output\protocol.o: ..\user\gpio.h
+..\output\protocol.o: ..\driver\gpio_driver.h
+..\output\protocol.o: ..\driver\spi0_driver.h
+..\output\protocol.o: ..\driver\i2c0_driver.h
+..\output\protocol.o: ..\driver\i2c1_driver.h
